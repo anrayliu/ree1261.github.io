@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Anray's Website</title>
+    
+    <style>
+        
+        body {
+            width: 100%;
+            height: 100vh;
+            margin: 0px;
+        }
+        
+        #particles-js {
+            width: 100%;
+            height: 100%;
+            background-image: url("assets/back.jpg");
+            background-size: cover;
+            position: fixed;
+        }
+
+        #gray-box {
+            background-color: rgba(80, 80, 80, 0.5);
+            width: 60%;
+            height: 100%;
+            position: fixed;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+        
+        #content {
+            width: 60%;
+            height: 100%;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+        
+        h1, h3, p {
+            padding: 20px;
+            margin: 0px 60px;
+            text-align: center;
+            word-wrap: break-word;
+            font-family: 'Courier New', monospace;
+        }
+        
+        a {
+            color: white;
+        }
+        
+        img {
+            width: 40%;
+            height: auto;
+            position: relative;
+            padding: 20px;
+            left: 50%;
+            transform: translate(-50%, 0);
+            border-radius: 50px;       
+        }
+
+    </style>
+    
+</head>
+
+<body>
+    <div id="particles-js"> </div>
+    <div id="gray-box"> </div>
+    
+    <div id="content">
+        <h1>Anray Liu</h1>
+        <p>Welcome to my website that I made from scratch with HTML and CSS! Here, I'll be showing off some of my best tech projects.</p>
+        
+        <h3>Game Dev Club</h3>
+        <p>I'm the leader of the Game Dev Club at my school, where me and my friend teach people how to make their very own video games!</p>
+        <img src="assets/test.png">
+                
+        <h3>Pyvidplayer</h3>
+        <p>Pyvidplayer is a small module I wrote that allows people to easily play video files in Python. 
+           It fills a gap no other library covers, as it's reliable, simple, and efficient.
+            Since then, the module has garned several hundred downloads. Check it out yourself on my github page: <a href="https://github.com/ree1261/pyvidplayer">https://github.com/ree1261/pyvidplayer</a>.</p>
+        <img src="assets/pyvidplayer.gif">
+        
+        <h3>Course Design</h3>
+        <p>I've been using a library called Pygame for several years now, so I thought I would design a short course to teach new users.
+            The course can be found at <a href="https://pythonics.org/pygame.html">https://pythonics.org/pygame.html</a>.</p>
+        <img src="assets/course.png">
+        
+        <h3>Canadian Computing Contest</h3>
+        <p>I was awarded a certificate of distinction for Waterloo's Junior Canadian Computing Contest.</p>
+        
+        <h3>Squaresplosion</h3>
+        <p>Check out my epic game!</p>
+        <img src="assets/squaresplosion.gif">
+        
+        <h3>Blue Movies</h3>
+        <p>This was when I moved away from making video games and more into practical applications. Blue Movies was my 
+           first attempt at making a professional user interface.</p>
+        <img src="assets/bluemovies.gif">
+        
+        <h3>Long Term Computer Enthusiast</h3>
+        <p>I've been coding for several years now, experimenting with all sorts of languages, and posting finished experiences on my github account. 
+           Naturally, I'm familiar with many computer concepts such as interpolation, scraping, threading, and more!</p>
+        
+    </div>
+    
+    <script src="particles.js"> </script>
+    <script src="app.js"> </script>
+    
+</body>
+
+</html>
